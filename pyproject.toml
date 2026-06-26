@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "breakhis-calibration"
+version = "0.1.0"
+description = "Experimental codebase for calibration and cost-sensitive decision analysis of CNN classifiers on BreakHis."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "pillow>=10,<12",
+  "pyyaml>=6.0,<7",
+  "scikit-learn>=1.4,<2",
+  "scipy>=1.11,<2",
+  "torch>=2.2,<3",
+  "torchvision>=0.17,<1",
+  "matplotlib>=3.8,<4",
+  "seaborn>=0.13,<1",
+  "tqdm>=4.66,<5",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8,<9",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]

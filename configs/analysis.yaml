@@ -1,0 +1,8 @@
+ece_bins: 15
+decision_curve_points: 99
+cost_ratios:
+  - 1
+  - 2
+  - 5
+  - 10
+  - 20

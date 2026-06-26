@@ -1,0 +1,19 @@
+Architecture pair,Metric,n pairs,Bonferroni p,Median diff
+Custom CNN vs EfficientNet-B0,temperature_T,60,<0.001*,-0.428
+Custom CNN vs EfficientNet-B0,ece_uncalibrated,60,0.043*,0.022
+Custom CNN vs EfficientNet-B0,brier_uncalibrated,60,0.008*,0.022
+Custom CNN vs EfficientNet-B0,net_benefit_r10_uncalibrated,60,1.000,-0.003
+Custom CNN vs EfficientNet-B0,net_benefit_r5_uncalibrated,60,1.000,-0.000
+Custom CNN vs EfficientNet-B0,accuracy_tau_0.5_uncalibrated,60,1.000,-0.014
+Custom CNN vs ResNet-50,temperature_T,60,<0.001*,-0.566
+Custom CNN vs ResNet-50,ece_uncalibrated,60,0.007*,0.028
+Custom CNN vs ResNet-50,brier_uncalibrated,60,0.003*,0.020
+Custom CNN vs ResNet-50,net_benefit_r10_uncalibrated,60,1.000,-0.004
+Custom CNN vs ResNet-50,net_benefit_r5_uncalibrated,60,1.000,-0.001
+Custom CNN vs ResNet-50,accuracy_tau_0.5_uncalibrated,60,1.000,-0.010
+EfficientNet-B0 vs ResNet-50,temperature_T,60,0.018*,-0.175
+EfficientNet-B0 vs ResNet-50,ece_uncalibrated,60,1.000,0.003
+EfficientNet-B0 vs ResNet-50,brier_uncalibrated,60,1.000,0.001
+EfficientNet-B0 vs ResNet-50,net_benefit_r10_uncalibrated,60,0.786,-0.002
+EfficientNet-B0 vs ResNet-50,net_benefit_r5_uncalibrated,60,1.000,-0.003
+EfficientNet-B0 vs ResNet-50,accuracy_tau_0.5_uncalibrated,60,1.000,0.004

@@ -1,0 +1,73 @@
+# Python bytecode and build products
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+*.so
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Notebook scratch state
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Raw BreakHis data must be downloaded separately and must not be redistributed.
+data/raw/
+data/raw/**
+*.png.tmp
+
+# Model weights and heavyweight/generated training artifacts.
+outputs/**
+!outputs/
+
+# Keep compact derived artifacts needed to reproduce manuscript analyses without
+# raw images or checkpoints.
+!outputs/logits/
+!outputs/logits/**/
+!outputs/logits/**/*.npz
+!outputs/results/
+!outputs/results/*.csv
+!outputs/results/decision_curves/
+!outputs/results/decision_curves/**/
+!outputs/results/decision_curves/**/*.npy
+!outputs/figures/
+!outputs/figures/*.png
+!outputs/figures/*.pdf
+!outputs/figures/exemplar_reliability/
+!outputs/figures/exemplar_reliability/*.png
+!outputs/figures/tables/
+!outputs/figures/tables/*.csv
+!outputs/figures/tables/*.tex
+
+# Explicitly keep private/large run products ignored even under outputs/.
+outputs/checkpoints/
+outputs/checkpoints_diagnostic/
+outputs/audit_backup/
+outputs/repair_runs/
+outputs/**/*.pt
+outputs/**/*.pth
+outputs/**/*.ckpt
+outputs/**/*.onnx
+outputs/**/*.pkl
+outputs/**/*.log
+outputs/**/*.jsonl
+outputs/**/.DS_Store

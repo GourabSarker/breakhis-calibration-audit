@@ -1,0 +1,29 @@
+architectures:
+  - custom_cnn
+  - resnet50
+  - efficientnet_b0
+
+magnifications:
+  - 40
+  - 100
+  - 200
+  - 400
+
+seeds:
+  - 0
+  - 1
+  - 2
+
+folds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+
+epochs: 30
+batch_size: 32
+learning_rate: 1.0e-4
+early_stopping_patience: 5
+pretrained: true
+num_workers: 0

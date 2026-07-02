@@ -115,8 +115,11 @@ Please cite the manuscript and the BreakHis dataset paper when using this reposi
 
 ## License
 
-This release proposes the MIT License for repository code. TODO before public release: the human authors must approve the final license choice. The BreakHis images are governed by the dataset maintainers' terms and are not redistributed here.
+Repository code is released under the MIT License. The BreakHis images are not redistributed here and remain governed by the dataset maintainers' terms.
+
 
 ## Contact
 
-TODO before public release: add the corresponding author email address and final public GitHub URL.
+Corresponding author: Gourab Sarker  
+Email: gourab.sarker@ttu.edu  
+Repository: https://github.com/GourabSarker/breakhis-calibration-audit

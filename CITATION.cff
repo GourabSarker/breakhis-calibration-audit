@@ -4,6 +4,8 @@ title: "Beyond Headline Accuracy: A Patient-Level Calibration and Decision-Analy
 authors:
   - family-names: Sarker
     given-names: Gourab
+  - family-names: Chakraborty
+    given-names: Anik
   - family-names: Hasan
     given-names: Md. Al Mehedi
 type: software

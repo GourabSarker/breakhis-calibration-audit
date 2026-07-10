@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the associated manuscript. DOI to be added after archival release."
-title: "Beyond Headline Accuracy: A Patient-Level Calibration and Decision-Analysis Audit of CNN Classifiers on BreakHis"
+title: "A Reproducible Computational Framework for Evaluating Patient-Clustered Biomedical Image Classifiers: Calibration, Decision Analysis, and Cluster-Aware Uncertainty"
 authors:
   - family-names: Sarker
     given-names: Gourab
@@ -10,5 +10,5 @@ authors:
     given-names: Md. Al Mehedi
 type: software
 version: "0.1.0"
-abstract: "Reproducibility package for a patient-level calibration and cost-sensitive decision-analysis audit of CNN classifiers on BreakHis."
+abstract: "Open-source reproducibility package for a computational framework evaluating patient-clustered biomedical image classifiers through calibration, decision analysis, and cluster-aware uncertainty, demonstrated on BreakHis."
 license: MIT

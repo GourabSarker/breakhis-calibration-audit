@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "breakhis-calibration"
 version = "0.1.0"
-description = "Experimental codebase for calibration and cost-sensitive decision analysis of CNN classifiers on BreakHis."
+description = "Reproducible computational framework for evaluating patient-clustered biomedical image classifiers through calibration, decision analysis, and cluster-aware uncertainty."
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
